@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { theme } from "../../../theme/Index";
-import BackGround from "../../../assets/group.png";
+import BackGround from "../../../assets/group-3.png";
 
 export const InitialHomePage = styled.section`
   background-size: cover;

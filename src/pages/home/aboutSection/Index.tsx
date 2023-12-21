@@ -1,5 +1,5 @@
 import ImageAbout from "../../../assets/photo.png";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaFacebookF } from "react-icons/fa";
 import { useScrollAnimation } from "../../../hooks/useScrollAnimation";
 import * as S from "./Style";
 
@@ -33,9 +33,17 @@ export const AboutSection = () => {
           temas como divórcio, pensão alimentícia, investigação de paternidade e
           guarda judicial, entre outros
         </p>
-        <a href="https://wa.me/5511982099540" target="_blank">
-          Whatsapp <FaWhatsapp />
-        </a>
+        <S.ButtonAbout>
+          <a href="https://wa.me/5511982099540" target="_blank">
+            Whatsapp <FaWhatsapp />
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100089839232816&locale=pt_BR"
+            target="_blank"
+          >
+            Facebook <FaFacebookF />
+          </a>
+        </S.ButtonAbout>
       </S.About>
       <S.ImageAboutContainer>
         <img src={ImageAbout} alt="imagem advogada" />

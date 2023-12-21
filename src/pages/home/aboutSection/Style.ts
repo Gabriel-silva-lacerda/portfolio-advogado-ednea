@@ -65,17 +65,36 @@ export const About = styled.div`
     }
   }
 
+  @media (max-width: 1034px) {
+    &::before {
+      display: none;
+    }
+    p {
+      max-width: initial;
+    }
+  }
+`;
+
+export const ButtonAbout = styled.div`
+  display: flex;
+  gap: 1rem;
+
+  align-items: self-start;
+  justify-content: flex-start;
+
   a {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
 
     color: ${theme.colors.wine};
 
-    border: 1px solid ${theme.colors.lightWine};
-    padding: 1rem 2rem;
+    border: 1px solid ${theme.colors.wine};
+    padding: 0rem 1rem;
 
-    width: min-content;
+    width: 100%;
+    height: 70px;
 
     font-size: 1.1rem;
     transition: all 0.3s;
@@ -86,16 +105,7 @@ export const About = styled.div`
       border-color: ${theme.colors.white};
     }
   }
-
-  @media (max-width: 1034px) {
-    &::before {
-      display: none;
-    }
-    p {
-      max-width: initial;
-    }
-  }
-`;
+`
 
 export const ImageAboutContainer = styled.div`
   position: relative;

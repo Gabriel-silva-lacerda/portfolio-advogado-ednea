@@ -7,7 +7,7 @@ export const Footer = () => {
     justify-content: center;
     padding: 2rem 1.5rem;
 
-    background: ${theme.colors.lightWine};
+    background: ${theme.colors.wine};
 
     span {
       color: ${theme.colors.beige};

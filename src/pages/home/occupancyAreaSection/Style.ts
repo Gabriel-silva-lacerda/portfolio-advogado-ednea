@@ -3,7 +3,7 @@ import { theme } from "../../../theme/Index";
 import { motion } from "framer-motion";
 
 export const OccupancyAreaContainer = styled.section`
-  background: ${theme.colors.lightWine};
+  background: ${theme.colors.wine};
   padding: 6rem 0rem;
 `;
 

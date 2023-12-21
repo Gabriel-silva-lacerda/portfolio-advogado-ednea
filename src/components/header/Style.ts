@@ -10,7 +10,7 @@ export const Header = styled.header<{ scrolled: boolean; active: boolean }>`
   background: transparent;
 
   background: ${({ scrolled, active }) =>
-    scrolled || active ? "#5e2a3b" : "transparent"};
+    scrolled || active ? "#871034" : "transparent"};
 
   box-shadow: ${({ scrolled, active }) =>
     scrolled || active ? "0 1px 1px #0000001a" : "initail"};
@@ -121,7 +121,7 @@ export const HeaderList = styled.ul`
     width: 100%;
     position: absolute;
     right: 0;
-    background: ${theme.colors.lightWine};
+    background: ${theme.colors.wine};
     height: 0;
     transition: all 0.6s;
     z-index: 1000;

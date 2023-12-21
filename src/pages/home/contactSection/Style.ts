@@ -42,7 +42,7 @@ export const ContactTitle = styled.h2`
 `;
 
 export const ContactSectionImageContainer = styled.div`
-  background: ${theme.colors.lightWine};
+  background: ${theme.colors.wine};
   padding: 1rem;
   position: relative;
 
