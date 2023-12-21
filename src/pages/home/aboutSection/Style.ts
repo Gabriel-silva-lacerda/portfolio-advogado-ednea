@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { theme } from "../../../theme/Index";
+import { motion } from "framer-motion";
 
-export const AboutContainer = styled.section`
+export const AboutContainer = styled(motion.section)`
   margin: 0 auto;
   max-width: 1300px;
 
@@ -85,7 +86,7 @@ export const About = styled.div`
       border-color: ${theme.colors.white};
     }
   }
-  
+
   @media (max-width: 1034px) {
     &::before {
       display: none;

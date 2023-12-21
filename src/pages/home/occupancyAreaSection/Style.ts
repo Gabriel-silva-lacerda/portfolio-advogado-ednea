@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { theme } from "../../../theme/Index";
+import { motion } from "framer-motion";
 
 export const OccupancyAreaContainer = styled.section`
   background: ${theme.colors.lightWine};
@@ -31,12 +32,12 @@ export const OccupancyTitle = styled.h2`
   @media (max-width: 768px) {
     display: inline-block;
     &::before {
-    width: 17%;
-  }
+      width: 17%;
+    }
   }
 `;
 
-export const OccupancyArea = styled.ul`
+export const OccupancyArea = styled(motion.ul)`
   max-width: 1300px;
   margin: 0 auto;
   padding: 0rem 1.5rem;

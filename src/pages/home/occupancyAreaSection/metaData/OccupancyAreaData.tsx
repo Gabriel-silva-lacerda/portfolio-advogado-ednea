@@ -12,31 +12,32 @@ export const AreaData = [
     icon: <FaScaleBalanced />,
     title: "Aposentadoria por Idade",
     content:
-      "Permite que trabalhadores urbanos e rurais se aposentem ao atingirem uma certa idade, desde que cumpram os requisitos de contribuição.",
+      'A "Aposentadoria por Idade" é uma das modalidades do sistema previdenciário brasileiro. Nesse caso, os trabalhadores urbanos e rurais podem se aposentar ao atingirem uma idade específica, desde que cumpram os requisitos mínimos de contribuição. Essa abordagem visa proporcionar uma transição equitativa para a aposentadoria, levando em consideração a maturidade profissional e a longevidade dos beneficiários.',
   },
   {
     icon: <FaBusinessTime />,
     title: "Aposentadoria por Tempo de Contribuição",
     content:
-      "Permite a aposentadoria para trabalhadores que atingiram o tempo mínimo de contribuição exigido, independentemente da idade.",
+      "Para aposentadoria por tempo de contribuição são 4 as regras de transição. 1- Regra de Pontos: É a soma  de idade e contribuição  equivalente a quantidade de x pontos exigidos em lei. 2- Regra de  transição de idade mínima e contribuição. 3- Regra de transição de  pedágio 50%. 4-Regra de transição de pedágio de 100%.",
+  },
+
+  {
+    icon: <FaHandHoldingHeart />,
+    title: "Benefício Assistencial ao Idoso",
+    content:
+      "Proporciona um benefício assistencial para pessoas idosas de baixa renda que não recebem outros benefícios previdenciários. Esse suporte financeiro visa garantir uma qualidade de vida digna a partir dos 65 anos.",
+  },
+  {
+    icon: <FaLandmark />,
+    title: "Benefício Assistencial à Pessoa com Deficiência",
+    content:
+      "Oferece um benefício assistencial para pessoas com deficiência de qualquer idade de baixa renda que não conseguem se manter ou ser mantidos pela família e não recebem outros benefícios previdenciários. ",
   },
   {
     icon: <FaUserDoctor />,
     title: "Auxílio-Doença",
     content:
       "Oferece suporte financeiro temporário a trabalhadores que ficam temporariamente incapazes de realizar suas atividades laborais devido a doença ou acidente.",
-  },
-  {
-    icon: <FaHandHoldingHeart />,
-    title: "Benefício Assistencial ao Idoso",
-    content:
-      "Proporciona um benefício assistencial para pessoas idosas de baixa renda que não recebem outros benefícios previdenciários.",
-  },
-  {
-    icon: <FaLandmark />,
-    title: "Benefício Assistencial à Pessoa com Deficiência",
-    content:
-      "Oferece um benefício assistencial para pessoas com deficiência que não conseguem se manter ou ser mantidas pela família e não recebem outros benefícios previdenciários.",
   },
   {
     icon: <FaTaxi />,

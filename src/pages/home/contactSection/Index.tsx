@@ -1,10 +1,22 @@
-import * as S from "./Style";
 import Logo from "../../../assets/logo.png";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { useScrollAnimation } from "../../../hooks/useScrollAnimation";
+import * as S from "./Style";
 
 export const ContactSection = () => {
+  const { ref, controls } = useScrollAnimation();
   return (
-    <S.ContactSectionContainer id="contact">
+    <S.ContactSectionContainer
+      id="contact"
+      ref={ref}
+      variants={{
+        hidden: { opacity: 0, y: 75 },
+        visible: { opacity: 1, y: 0 },
+      }}
+      initial="hidden"
+      animate={controls}
+      transition={{ duration: 0.5, delay: 0.25 }}
+    >
       <S.ContactTitle>Contate-me</S.ContactTitle>
       <S.ContactContainer>
         <S.ContactSectionImageContainer>

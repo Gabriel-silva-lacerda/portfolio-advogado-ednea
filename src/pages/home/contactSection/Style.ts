@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { theme } from "../../../theme/Index";
+import { motion } from "framer-motion";
 
-export const ContactSectionContainer = styled.section`
+export const ContactSectionContainer = styled(motion.section)`
   margin: 0 auto;
   max-width: 1300px;
 
