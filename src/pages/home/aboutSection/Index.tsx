@@ -9,7 +9,7 @@ export const AboutSection = () => {
         <h2>Sobre mim</h2>
         <p>
           Meu chamo Ednea Mendes, sou advogada há 16 anos, com especialização
-          nas áreas previdenciária. Graduada na Universidade Radial, com
+          na área previdenciária. Graduada na Universidade Radial, com
           pós-graduação e MBA na Faculdade Legale.
         </p>
         <p>

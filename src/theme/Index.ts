@@ -5,7 +5,6 @@ export const theme = {
     wine: "#871034",
     lightWine: "#5e2a3b",
     white: "#FFF",
-    blueBackgroudImage: "#0f2167c5",
     textColor: "#1a1a1a",
   },
 };
