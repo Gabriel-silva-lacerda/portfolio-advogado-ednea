@@ -26,10 +26,10 @@ export const ContactSection = () => {
           <ul>
             <li>
               <FaMapMarkerAlt />
-              Lr. 13 de Maio, 520 - Cj 72 - Santo Amaro SP, 05822-020
+              Lr. 13 de Maio, 520 - Cj 72 - Santo Amaro SP, 05751-000
             </li>
             <li>
-              <FaPhoneAlt /> (11) 94977-6197
+              <FaPhoneAlt /> (11) 98209-9540
             </li>
             <li>
               {" "}
