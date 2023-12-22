@@ -18,7 +18,7 @@ export const AreaData = [
     icon: <FaBusinessTime />,
     title: "Aposentadoria por Tempo de Contribuição",
     content:
-      "Aposentadoria por Tempo de Contribuição é o benefício previdenciário por excelência, concedido ao segurado que completar um determinado tempo de filiação e contribuição à Previdência Social. Pode ser dividida em  Proporcional, integral e regra de transição. As regras são:  regra de pontos, regra de transição de idade mínima e contribuição, Regra de transição de pedágio 50% e Regra de transição de pedágio de 100%.",
+      "Aposentadoria por Tempo de Contribuição é o benefício previdenciário por excelência, concedido ao segurado que completar um determinado tempo de filiação e contribuição à Previdência Social. Pode ser dividida em  Proporcional, integral. Aposentadoria Integral com a regra de transição dividida em 4: regra de pontos, regra de transição de idade mínima e contribuição, Regra de transição de pedágio 50% e Regra de transição de pedágio de 100%.",
   },
 
   {
