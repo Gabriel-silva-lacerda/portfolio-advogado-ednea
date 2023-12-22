@@ -45,4 +45,10 @@ export const AreaData = [
     content:
       "Concede um benefício ao segurado que sofre um acidente e fica com sequelas que reduzem sua capacidade de trabalho.",
   },
+  {
+    icon: <FaTaxi />,
+    title: "Direito de Família",
+    content:
+      "O Direito de Família engloba uma gama de questões cruciais relacionadas às relações familiares. Desde modalidades de divórcio, como consensual, litigioso, administrativo, adjudicação compulsoria e até temas sensíveis como pensão alimentícia, fixação, revisão,  guarda judicial, investigação de paternidade e regulamentação de visitas, esse ramo do Direito visa regulamentar as dinâmicas familiares de maneira justa e equitativa.",
+  },
 ];

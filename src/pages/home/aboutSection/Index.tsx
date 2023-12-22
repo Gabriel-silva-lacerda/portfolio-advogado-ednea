@@ -28,10 +28,11 @@ export const AboutSection = () => {
         <p>
           Minha dedicação se concentra em questões relacionadas ao INSS,
           abrangendo aposentadorias, benefício por incapacidade, Benefícios de
-          Prestação Continuada, Auxílio Acidente, Revisão da Vida Toda, entre
-          outros. Além disso, atuo no âmbito do direito de família, abordando
-          temas como divórcio, pensão alimentícia, investigação de paternidade e
-          guarda judicial, entre outros
+          Prestação Continuada, Auxílio Acidente, Revisão da Vida Toda, Revisão
+          de alimentos, divórcio consensual e litigioso, administrativo,
+          adjudicação compulsória entre outros. Além disso, atuo no âmbito do
+          direito de família, abordando temas como divórcio, pensão alimentícia,
+          investigação de paternidade e guarda judicial, entre outros.
         </p>
         <S.ButtonAbout>
           <a href="https://wa.me/5511982099540" target="_blank">

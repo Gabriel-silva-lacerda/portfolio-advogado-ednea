@@ -118,7 +118,7 @@ export const ImageAboutContainer = styled.div`
     height: 3px;
     position: absolute;
     right: 0px;
-    bottom: 2px;
+    bottom: 0px;
   }
 
   &::after {
@@ -129,6 +129,7 @@ export const ImageAboutContainer = styled.div`
 
   img {
     max-width: 400px;
+    height: 100%;
   }
 
   @media (max-width: 1034px) {
