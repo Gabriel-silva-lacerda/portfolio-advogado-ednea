@@ -18,7 +18,7 @@ export const AreaData = [
     icon: <FaBusinessTime />,
     title: "Aposentadoria por Tempo de Contribuição",
     content:
-      "Para aposentadoria por tempo de contribuição são 4 as regras de transição. 1- Regra de Pontos: É a soma  de idade e contribuição  equivalente a quantidade de x pontos exigidos em lei. 2- Regra de  transição de idade mínima e contribuição. 3- Regra de transição de  pedágio 50%. 4-Regra de transição de pedágio de 100%.",
+      "Aposentadoria por Tempo de Contribuição é o benefício previdenciário por excelência, concedido ao segurado que completar um determinado tempo de filiação e contribuição à Previdência Social. Pode ser dividida em  Proporcional, integral e regra de transição. As regras são:  regra de pontos, regra de transição de idade mínima e contribuição, Regra de transição de pedágio 50% e Regra de transição de pedágio de 100%.",
   },
 
   {
